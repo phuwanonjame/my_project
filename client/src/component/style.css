@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+body{
+    background-color: rgba(238, 237, 237, 0.945);
+}
+.body-homepage{
+    display: flex;
+}
+.body-bodyhome{
+    margin-right: 1vw;
+    margin-left: 2vw;
+}
+.window-pane{
+    display: flex;
+    margin-top: 1vw;
+}
+.search-container {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.2vw;
+    background-color: #fff;
+    margin-bottom: 1vw;
+}
+i.fas.fa-magnifying-glass {
+    color: #474747;
+    margin-right: 10px;
+}
+input.search {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 0.2vw;
+}
+input.search:focus {
+    border: 1px solid #007bff;
+}
+
+.logo img{
+    width: 7vw;
+    height: 5vw;
+}
+.nav-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2vw auto;
+
+
+}
+.nav-container{
+    background: linear-gradient(to right, rgba(163, 163, 163, 0.993), rgba(18, 18, 22, 0.993));
+
+}
+.containerhome{
+  margin: 0 4vw auto;
+    
+}
+.header-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+}
+.card{
+    width: 100%;
+    height: 100%;
+   background: linear-gradient(to right, rgba(235, 178, 72, 0.993), rgba(230, 136, 13, 0.993));
+   padding: 2vw;
+   cursor: pointer;
+   border-radius: 2vw;
+
+
+  
+  
+   
+}
+.card:hover{
+    opacity: 0.5;
+}
+.headercard {
+    width: 102%;
+    height: 39%;
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vw;
+    color: white;
+}
+.icon-card{
+    font-size: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+.container-personal{
+    width: 10vw;
+    height: 30vw;
+    background-color: yellowgreen;
+}
+.headerpersonal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vw;
+}
+.headerpersonal h2{
+    font-size: 2vw;
+}
+.body-personal{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 1vw;
+}
+.input-col1{
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.input-col1 input{
+    margin-right: 1vw;
+    font-size: 0.8vw;
+    text-align: center;
+}
+.input-col1 p{
+    margin-right: 1vw;
+}
+.input-col1 img{
+    width: 8vw;
+    height: 9vw;
+
+    margin-top: 1vw;
+}
+.img-ss {
+    position: absolute;
+    right: 5vw;
+    
+
+}
+.input-col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vw;
+    padding-bottom: 1vw;
+}
+.input-col1 input{
+    width: 10vw;
+    height: 2vw;
+}
+.textarea{
+    margin-right: 1vw;
+}
+.btn-listper h1{
+    margin-left: 2vw;
+}
+.btn-prosonal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1vw;
+}
+.btn-pro{
+    width: 7vw;
+    height: 2vw;
+    border: none;
+    border-radius: 1vw;
+    background: rgb(19, 161, 0);
+    color: white;
+    font-size: 1vw;
+    cursor: pointer;
+}
+.btn-pro:hover{
+    opacity: 0.5;
+}
+
+.btn-prodel{
+    width: 7vw;
+    height: 2vw;
+    border: none;
+    border-radius: 1vw;
+    background: rgb(212, 28, 4);
+    color: white;
+    font-size: 1vw;
+    cursor: pointer;
+    margin-left: 1vw;
+}
+.btn-prodel:hover{
+    opacity: 0.5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    text-align: center;
+    
+  }
+  
+  /* ปรับรูปแบบของหัวตาราง */
+  th {
+    background-color: #0bc8f7;
+    color: #1d1c1c;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* ปรับรูปแบบของข้อมูลในเซลล์ */
+  td {
+    padding: 8px;
+    border: 1px solid #ffffff;
+  }
+  
+  /* สร้างลักษณะขอบสีที่คม */
+  td, th {
+    border: 1px solid #383838;
+  }
+  
+  /* ปรับรูปแบบแถวที่สลับสีพื้นหลัง */
+  tr:nth-child(even) {
+    background-color: #e0e0e0;
+  }
+  
+  /* ปรับรูปแบบเมื่อเมาส์ hover บนแถว */
+  tr:hover {
+    background-color: #ccc;
+  }
+  .table{
+    padding-bottom: 2vw;
+    margin: 0 2vw;
+  }
+  .header-table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vw;
+    font-size: 1.2vw;
+    padding-top: 1vw;
+  }
+  .fa-search{
+    font-size: 1vw;
+  }
+  .btn-edit{
+    border: none;
+    padding: 10px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn-edit:hover{
+    opacity: 0.5;
+   transform: scale(1.2);
+  }
+  .cardprosonal{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  .card-prosonal{
+    width:60vw;
+    height: 35vw;
+    border-radius: 5px;
+    z-index: 1;
+    
+  }
+ 
+  .img-ssedit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ .close{
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 26, 26, 0.342);
+    position: absolute;
+ }
+.img-ss2{
+    width: 14vw;
+    height: 14vw;
+    margin-bottom: 5vw;
+    border-radius: 1vw;
+}
+.tableasset{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    padding-bottom: 1vw;
+    margin: 0 5vw;
+}
+.table-asset {
+    width: 95%;
+    border-collapse: collapse;
+    border: 1px solid #333;
+    background-color: #cccccc;
+    text-align: center;
+    
+    
+    
+  }
+  .table-asset th{
+    background: rgb(235, 235, 199);
+  }
+@media (max-width: 1400px) {
+    .card-prosonal {
+        width: 68vw;
+        height: 43vw;
+        border-radius: 5px;
+        z-index: 1;
+    }
+    .cardprosonal{
+        position:absolute;
+        width: 100%;
+        height: 150%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+      }
+    .close{
+        width: 100%;
+        height: 100%;
+    }
+  }
+  .cardbody-asset{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.678);
+    border-radius: 1vw;
+  }
+  .headerasset{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+  }
+  .body-input{
+    margin: 0 2vw;
+  }
+  .btn-assetedit{
+    border: none;
+    width: 5vw;
+    height: 2vw;
+    margin: 0.5vw;
+    border-radius: 1vw;
+    background: rgb(28, 219, 2);
+    color: rgb(17, 16, 16);
+    cursor: pointer;
+    font-size: 0.9vw;
+  }
+  .btn-assetedit:hover{
+    opacity: 0.5;
+  }
+  .table-asset td{
+    padding: 0;
+    font-size: 1vw;
+  }
+  .table-asset th{
+    padding: 0;
+    border: 0.2px solid #383838;
+  }
